@@ -63,7 +63,7 @@ python main.py
 
 ## 📊 Sample Output
 
-![Bitcoin Price Chart](../learning_steps/btc_price_chart.png)
+![Bitcoin Price Chart](https://raw.githubusercontent.com/alireza-irman/crypto_dashboard_project/main/learning_steps/btc_price_chart.png)
 
 ---
 
@@ -86,5 +86,5 @@ This project is licensed under the MIT License – see the [LICENSE](../LICENSE)
 ## 🌐 Author
 
 **Alireza Irman**  
-
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/alireza-irman)  
 📂 GitHub: [alireza-irman](https://github.com/alireza-irman)
