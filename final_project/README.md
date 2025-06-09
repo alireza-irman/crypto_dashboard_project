@@ -1,68 +1,90 @@
-# Bitcoin Price Analyzer (7-Day Tracker)
 
-This project is a **complete data analysis pipeline** built to fetch, process, and visualize Bitcoin prices over the last 7 days using real-time data from the CoinGecko API. It is designed as a practical learning project in Python, focusing on essential data analysis skills useful for AI, machine learning, and data-driven decision-making.
+# 🪙 Crypto Dashboard Project
 
----
-
-## ✨ Project Goals
-- Strengthen skills in **Python programming**, **data collection**, and **data visualization**
-- Demonstrate ability to structure code into modular components (`main.py` and `utils.py`)
-- Provide a base for future financial analysis tools (e.g., price prediction, anomaly detection, etc.)
+A fully modular Python project that fetches, processes, and visualizes **live cryptocurrency price data** using public APIs (like CoinGecko). This dashboard is built to showcase clean architecture, data processing, and visualization capabilities—perfect for AI and data-driven applications.
 
 ---
 
-## 🌐 Features
-- ✅ Fetches real-time Bitcoin price data (past 7 days)
-- ✅ Converts JSON data into clean CSV format
-- ✅ Generates a clear line chart and saves it as an image
-- ✅ Clean, modular, and beginner-friendly Python code
+## 🌟 Features
+
+✅ Fetches real-time prices for cryptocurrencies (e.g., **Bitcoin**, **Ethereum**)  
+✅ Saves data in JSON and CSV formats  
+✅ Generates clean line charts using Matplotlib  
+✅ Includes Streamlit-ready structure for dashboard apps  
+✅ Clear modular code: separation of fetch, process, plot logic
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-| File | Description |
-|------|-------------|
-| `main.py` | Entry point: coordinates the full pipeline from data fetching to visualization |
-| `utils.py` | Helper functions: fetching API data, saving CSV, and plotting chart |
-| `btc_prices.csv` | Output: historical price data in structured CSV format |
-| `btc_price_chart.png` | Output: line chart image of Bitcoin price changes |
-| `requirements.txt` | List of all Python dependencies |
+```
+crypto_dashboard_project/
+├── learning_steps/
+│   ├── step1_data_fetch.py
+│   ├── step2_data_process.py
+│   ├── step3_plot_chart.py
+│   ├── step4_save_plot.py
+│   └── btc_data.json / btc_prices.csv / btc_price_chart.png
+├── final_project/
+│   ├── main.py
+│   ├── utils.py
+│   ├── README.md
+│   └── requirements.txt
+```
 
 ---
 
-## 📖 How to Use
+## 🚀 How to Run
 
-### → 1. Install the required libraries:
+1. **Clone the repository**  
+```bash
+git clone https://github.com/alireza-irman/crypto_dashboard_project.git
+cd crypto_dashboard_project/final_project
+```
+
+2. **Create virtual environment (optional but recommended)**  
+```bash
+python -m venv venv
+source venv/bin/activate   # on Linux/Mac
+venv\Scripts\activate      # on Windows
+```
+
+3. **Install dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
 
-### → 2. Run the project:
+4. **Run the main script**  
 ```bash
 python main.py
 ```
 
-This will generate both the CSV and the chart in the working directory.
+---
+
+## 📊 Sample Output
+
+![Bitcoin Price Chart](../learning_steps/btc_price_chart.png)
 
 ---
 
-## 🌟 Future Improvements
-- [ ] Add date/time formatting options (local time zone support)
-- [ ] Add interactive visualizations (e.g., Plotly or Dash)
-- [ ] Extend to multi-coin tracking (ETH, ADA, etc.)
-- [ ] Export chart to PDF or upload to cloud drive
+## 🧠 Tech Stack
+
+- Python 3.x
+- Requests (for API calls)
+- Pandas (for data handling)
+- Matplotlib (for visualization)
+- Streamlit (dashboard-ready design)
 
 ---
 
-## ✍️ Author
+## 🛡 License
 
-**Created by: Alireza Ahmadi**  
-Specialist in AI, Data Analytics, and Educational Technology  
-Inspired by real-world challenges and books on Python data analysis.
+This project is licensed under the MIT License – see the [LICENSE](../LICENSE) file for details.
 
 ---
 
-Feel free to fork, modify, or expand this project in your own data science journey.
+## 🌐 Author
 
-> "Learning by building: every line of code brings us closer to real-world impact."
+**Alireza Irman**  
+
+📂 GitHub: [alireza-irman](https://github.com/alireza-irman)
