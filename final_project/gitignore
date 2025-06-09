@@ -1,0 +1,21 @@
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+
+# Environment variable files
+.env
+
+# Optional: ignore local data/output files
+*.json
+*.csv
+
+# IDE settings
+.vscode/
+.idea/
